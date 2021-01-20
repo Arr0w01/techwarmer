@@ -1,0 +1,64 @@
+.navigation{
+ margin-top: -10px;   
+}
+
+.title
+{
+    padding: 25px;
+    width: 95%;
+    background-color: red;
+}
+.title h1
+{
+    text-align: left;
+    font-size: 38px;
+    letter-spacing: 4px;
+    font-family: var(--article-font);
+}
+
+.s-media 
+{
+ display: inline-flex;
+ background-color:aquamarine;
+ margin-top: 100px;
+}
+
+.s-media a
+{
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.s-media span
+{
+    text-align: center;
+}
+.author
+{
+    background-color: pink;
+    padding: 2.5px;
+    display: inline-flex;
+    flex-direction: row;
+    width: 98%;
+
+}
+.name
+{
+ margin-left: 10px;
+ margin-top: 9px;
+}
+.time
+{
+    margin-left: 10px;
+    margin-top: 13px;
+    font-size: 10px;
+}
+.author img
+{
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+
+}

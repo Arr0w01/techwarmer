@@ -1,0 +1,245 @@
+.page
+{
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--article-font);
+}
+
+.logo
+{ 
+    width: 341px;
+    height: 264px;
+}
+.logo img
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 140px;
+    align-self: center;
+    float: right;
+    padding: 10px;
+}
+.about
+{
+    width: 700px;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.about h1
+{
+    font-family: var(--article-font);
+    padding: 20px;
+}
+
+.about p
+{
+ font-family: var(--font-m) ;
+ padding: 20px;
+ padding-top: 0px;
+ font-size: 15px;
+ line-height: 26px;
+}
+.youtube img
+{
+    height: 380px;
+    width: 550px;
+}
+
+/* Contact Us Page */
+.contact-body
+{
+    background-image: url(../images/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-decoration: none;
+}
+input:focus {
+    outline: none;
+}
+
+.contact
+{
+  padding-top: 100px;
+  width: 100vw;
+  height: 70vh;
+
+}
+.contact h1
+{
+    text-align: center;
+    color: white;
+    font-family: var(--article-font);
+    font-size: 45px;
+}
+
+.contact h2
+{
+    text-align: center;
+    color: white;
+    font-family: var(--article-font);
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.contact-left
+{ 
+    height: 500px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+    float: left;
+
+}
+
+
+
+.icons
+{
+
+    height: 165px;
+    width: 500px;
+    margin: 2px;
+}
+
+.icon
+{
+ background-color: white;
+ width: 90px;
+ height: 90px;
+ border-radius: 50px;
+}
+
+#fa
+{
+    font-size: 36px;
+    padding-top: 23px;
+    padding-left: 30px;
+    position: absolute;
+}
+
+#c-name
+{
+    font-family: var(--article-font);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: -80px;
+    letter-spacing: 4px;
+}
+
+#c-name a
+{
+    text-decoration: none;
+    color: rgb(144, 229, 255)
+}
+
+#c-details
+{
+    font-family: var(--font-m);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 120px ;
+    margin-top: -60px;
+}
+
+#c-details-2
+{
+    font-family: var(--font-m);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 120px ;
+    margin-top: -40px;
+}
+
+.contact-right
+{
+ background-color: white;
+ height: 480px;
+ width: 700px;
+ float: right;
+ margin-right: 300px;
+ margin-top: 50px;
+ border-radius: 10px;
+}
+
+.contact-right h1
+{
+    color: rgb(65, 65, 65);
+    font-family: var(--font-m);
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.contact-right form
+{
+    padding: 30px;
+    text-align: center;
+    width: 640px;
+    height: 300px;
+}
+
+.contact-right hr
+{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 30px;
+}
+
+#name
+{
+    border: 0px;
+    width: 90%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+#mail
+{
+    font-size: 20px;
+    border: 0px;
+    width: 90%;
+    height:30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+#msg
+{
+    font-size: 20px;
+    border: 0px;
+    width: 90%;
+    height: 30px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#send
+{
+    background-color: rgb(6, 185, 240);
+    font-size: 20px;
+    font-family: var(--article-font);
+    color: white;
+    padding:40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    margin-left: 30px;
+    border: 0px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 2s;
+    border-radius: 10px;
+}
+#send:hover
+{
+    background-color: rgb(0, 255, 13);
+}

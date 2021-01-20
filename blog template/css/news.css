@@ -1,0 +1,57 @@
+.news
+{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+
+.news h1
+{
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  text-align: center;
+  padding-top: 20px ;
+}
+
+.news hr
+{
+  width: 50vw;
+  border: 2px dotted rgb(7, 174, 252);
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* For Videos*/
+
+.v-body
+{
+  background-color: rgb(34, 34, 34)
+}
+
+.vid
+{
+  padding: 150px;
+  color: rgb(255, 255, 255);
+  font-family: var(--font-2);
+  text-align:center;
+  font-size: 35px;
+}
+.videos
+{
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.videos iframe
+{
+  width: 95%;
+  height: 600px;
+  
+}
